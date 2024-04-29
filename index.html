@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Home</title>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light style="style="background-color: #E0B0FF">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">⋆｡°✩Doggo World Website⋆｡°✩</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home✮</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="work.html">Works★</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About★</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact★</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide mt-5" data-bs-ride="carousel">
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="2"
+        ></button>
+        <button
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide-to="3"
+      ></button>
+      <button
+      type="button"
+      data-bs-target="#demo"
+      data-bs-slide-to="4"
+    ></button>
+      </div>
+
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="images/dog1.jpg"
+            alt="abstract"
+            class="d-block"
+            style="width: 100%"
+            height="900px"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/dog2.jpg"
+            alt="abstract"
+            class="d-block"
+            style="width: 100%"
+            height="900px"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/dog3.jpg"
+            alt="abstract"
+            class="d-block"
+            style="width: 100%"
+            height="900px"
+          />
+        </div>
+        <div class="carousel-item">
+            <img
+              src="images/dog4.jpg"
+              alt="abstract"
+              class="d-block"
+              style="width: 100%"
+              height="900px"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/dog5.jpg"
+              alt="abstract"
+              class="d-block"
+              style="width: 100%"
+              height="900px"
+            />
+          </div>
+      </div>
+
+      <!-- Left and right controls/icons -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+    <!-- end of carousell -->
+  </div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-3">
+  <div class="container mt-3">
+    <h2>Doggo 1</h2>
+    <p></p>
+    <div class="card" style="width: 400px">
+      <img
+        class="card-img-top"
+        src="images/Dog6.jpg"
+        alt="Card image"
+        style="width: 100%"
+      />
+      <div class="card-body">
+        <h4 class="card-title">Doggo 1</h4>
+        <p class="card-text">
+          "Pawsitively adorable pals 🐾"
+        </p>
+        <div class="container mt-3">
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#myModal"
+          >
+            See Profile
+          </button>
+        </div>
+
+        <!-- The Modal -->
+        <div class="modal" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Doggos</h4>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                ></button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">All good Doggos</div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+
+    <h2>Pretty Doggo 1</h2>
+    <div class="card" style="width: 400px">
+      <img
+      class="card-img-top"
+      src="images/dog7.jpg"
+      alt="Card image"
+      style="width: 100%"
+    />
+      <div class="card-body">
+        <h4 class="card-title">Pretty Doggo 1</h4>
+        <p class="card-text">
+          "In a world full of chaos, a glimpse of pure joy comes in the form of these adorable, fluffy companions - reminding us of the simple beauty in life. 🐾
+        </p>
+        <div class="container mt-3">
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#myModal"
+          >
+            See Profile
+          </button>
+        </div>
+
+        <!-- The Modal -->
+        <div class="modal" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Modal Heading</h4>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                ></button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">Modal body..</div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<div class="col-sm-3">
+  <div class="container mt-3">
+    <h2>Doggo 2</h2>
+    <p></p>
+    <div class="card" style="width: 400px">
+      <img
+        class="card-img-top"
+        src="images/Dog9.jpg"
+        alt="Card image"
+        style="width: 100%"
+      />
+      <div class="card-body">
+        <h4 class="card-title">Doggo 2</h4>
+        <p class="card-text">
+          "Fur-ever friends, wagging tails included 🐶❤️"
+        </p>
+        <div class="container mt-3">
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#myModal"
+          >
+            See Profile
+          </button>
+        </div>
+
+        <!-- The Modal -->
+        <div class="modal" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Doggo 2</h4>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                ></button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">Doggo 2</div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <h2>Pretty Doggo 2</h2>
+    <div class="card" style="width: 535px">
+      <img
+      class="card-img-top"
+      src="images/dog11.jpg"
+      alt="Card image"
+      style="width: 100%"
+    />
+      <div class="card-body">
+        <h4 class="card-title">Pretty Doggo 2</h4>
+        <p class="card-text">
+          "From their playful antics to their unwavering loyalty, these cute canines teach us valuable lessons in love, compassion, and the importance of living in the moment. 🐶💕
+        </p>
+        <div class="container mt-3">
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#myModal"
+          >
+            See Profile
+          </button>
+        </div>
+
+        <!-- The Modal -->
+        <div class="modal" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Modal Heading</h4>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                ></button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">Modal body..</div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        class="card-img-bottom"
+        src="images/img1.png"
+        alt="Card image"
+        style="width: 100%"
+      />
+    </div>
+  </div>
+</div>
+<div class="col-sm-3">
+  <div class="container mt-3">
+    <h2>Doggo 3</h2>
+    <p></p>
+    <div class="card" style="width: 550px">
+      <img
+        class="card-img-top"
+        src="images/dog10.jpg"
+        alt="Card image"
+        style="width: 100%"
+      />
+      <div class="card-body">
+        <h4 class="card-title">Doggo 3</h4>
+        <p class="card-text">
+          "Fetching moments with these paw-some pups 🐕✨
+        </p>
+        <div class="container mt-3">
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#myModal"
+          >
+            See Profile
+          </button>
+        </div>
+
+        <!-- The Modal -->
+        <div class="modal" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Modal Heading</h4>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                ></button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">Modal body..</div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+
+    <h2>Pretty Doggo 3</h2>
+    <div class="card" style="width: 350px">
+      <img
+        class="card-img-top"
+        src="images/dog12.jpg"
+        alt="Card image"
+        style="width: 100%"
+      />
+      <div class="card-body">
+        <h4 class="card-title">Jane Doe</h4>
+        <p class="card-text">
+          Behind those innocent eyes lies a world of boundless affection and endless tail wags. Embracing the companionship of these furry friends fills our hearts with warmth and happiness. 
+        </p>
+        <div class="container mt-3">
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#myModal"
+          >
+            See Profile
+          </button>
+        </div>
+
+        <!-- The Modal -->
+        <div class="modal" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Modal Heading</h4>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                ></button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">Modal body..</div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <h2>Cool Doggo 1</h2>
+    <div class="card" style="width: 400px">
+      <img
+        class="card-img-bottom"
+        src="images/dog13.jpg"
+        alt="Card image"
+        style="width: 100%"
+      />
+      <div class="card-body">
+        <h4 class="card-title">Cool Doggo 1</h4>
+        <p class="card-text">
+          "In a world full of chaos, there's always a wagging tail to bring us back to joyous simplicity."
+        </p>
+        <div class="container mt-3">
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#myModal"
+          >
+            See Profile
+          </button>
+        </div>
+
+        <!-- The Modal -->
+        <div class="modal" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Modal Heading</h4>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                ></button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">Modal body..</div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+  </div>
+</div>
+</div>
+
+      <!--Footer-->
+    <footer class="bg-body-tertiary text-center">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #3b5998"
+            href="https://www.facebook.com/"
+            role="button"
+            ><i class="fa-brands fa-facebook"></i></i
+          ></a>
+
+          <!-- Twitter -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #55acee"
+            href="https://twitter.com/i/flow/login"
+            role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+
+          <!-- Google -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #dd4b39"
+            href="https://accounts.google.com/signin"
+            role="button"
+            ><i class="fab fa-google"></i
+          ></a>
+
+          <!-- Instagram -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #ac2bac"
+            href="https://www.instagram.com/accounts/login/"
+            role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+
+          <!-- Linkedin -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #0082ca"
+            href="https://www.linkedin.com/login"
+            role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <!-- Github -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #333333"
+            href="https://github.com/login"
+            role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div
+        class="text-center p-3"
+        style="background-color: #E0B0FF"
+      >
+        © 2024 Copyright:
+        <a class="text-body" href="#">Cristina Joves.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
